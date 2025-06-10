@@ -13,7 +13,7 @@ This project requires a server to host DLC JAR files.
 It is recommended to use a URL structure like:
 
 ```
-https://dlc.example.com/{project}/{dlc_id}/{dlc_version}
+https://dlc.example.com/{project}/{dlc_id}/{dlc_version}/{file_name}.jar
 ```
 
 ✅ This allows everyone to use the same path format—only the domain needs to be changed.
