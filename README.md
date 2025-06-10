@@ -29,3 +29,13 @@ https://dlc.example.com/{project}/{dlc_id}/{dlc_version}/{file_name}.jar
   ```
   /dlc {project} {dlc_id} {version}
   ```
+
+## 🔐 Important
+
+Always think about **security** when downloading and using dlcs.
+
+Any dlc you load onto your server should have a clearly identifiable **author**.
+
+This helps determine whether the dlc can be trusted and ensures the security and stability of your server.
+
+Avoid duplicate content by following a standard and unified dlc hosting structure.
