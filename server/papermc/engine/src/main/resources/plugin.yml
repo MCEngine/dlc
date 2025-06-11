@@ -1,0 +1,6 @@
+name: MCEngineDLC
+version: ${version}
+main: io.github.mcengine.papermc.dlc.engine.MCEngineDLCPaperMC
+author: MCEngine
+description: MCEngine DLC
+api-version: 1.13

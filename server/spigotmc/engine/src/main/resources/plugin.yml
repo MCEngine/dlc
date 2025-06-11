@@ -1,0 +1,6 @@
+name: MCEngineDLC
+version: ${version}
+main: io.github.mcengine.spigotmc.dlc.engine.MCEngineDLCSpigotMC
+author: MCEngine
+description: MCEngine DLC
+api-version: 1.13
