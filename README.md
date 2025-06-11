@@ -1,3 +1,5 @@
+[![Bstats](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/available/bstats_vector.svg)](https://bstats.org/plugin/bukkit/MCEngineDLC/25752)
+
 # 📦 DLC Downloader
 
 This project provides a way to fetch available DLCs from a central website and download them directly in-game using the command:
