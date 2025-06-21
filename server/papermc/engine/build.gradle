@@ -2,15 +2,12 @@ plugins {
     id 'java'
 }
 
-def mcengineApiVersion = findProperty('mcengine-api.version') ?: 'undefined'
-
-def papermcApiVersion = findProperty('papermc-api.version') ?: 'undefined'
-
 dependencies {
-    compileOnly "io.papermc.paper:paper-api:$papermcApiVersion"
+    compileOnly 'io.papermc.paper:paper-api:1.21.6-R0.1-SNAPSHOT'
 
-    implementation "io.github.mcengine:mcengine-api:$mcengineApiVersion"
-    compileOnly project(':common')
+    implementation 'io.github.mcengine:core-api:1.0.3-RELEASE'
+    implementation 'io.github.mcengine:dlc-api:1.0.0-SNAPSHOT'
+    implementation 'io.github.mcengine:dlc-common:1.0.0-SNAPSHOT'
 }
 
 processResources {
